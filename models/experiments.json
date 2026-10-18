@@ -1,0 +1,1196 @@
+{
+    "model0": {
+        "models": "Ridge",
+        "penalty": "l2",
+        "eta0": 0.001,
+        "fit_intercept": true,
+        "max_iter": 100000,
+        "alpha": 0.1,
+        "tol": 0.0005,
+        "batch_size": 32,
+        "early_stopping": true,
+        "validation_fraction": 0.05,
+        "outliers": [
+            300,
+            3600
+        ],
+        "degree_poly": 2,
+        "techniques": [
+            [
+                0.1
+            ],
+            "grid-size=1e4"
+        ],
+        "random_state": 42,
+        "r2_train": 0.010933118790359408,
+        "mse_train": 27186747.2487033,
+        "r2_val": 0.005855331393718632,
+        "mse_val": 44188517.53709796,
+        "r2_test": 0.027424521717250294,
+        "mse_test": 9111810.011908181
+    },
+    "model1": {
+        "models": "Ridge",
+        "penalty": "l2",
+        "eta0": 0.001,
+        "fit_intercept": true,
+        "max_iter": 100000,
+        "alpha": 0.1,
+        "tol": 0.0005,
+        "batch_size": 32,
+        "early_stopping": true,
+        "validation_fraction": 0.05,
+        "outliers": [
+            300,
+            3600
+        ],
+        "degree_poly": 2,
+        "techniques": [
+            [
+                0.1
+            ],
+            "grid-size=1e4",
+            "log&exp"
+        ],
+        "random_state": 42,
+        "r2_train": -6745055821153941.0,
+        "mse_train": 1.854031625887988e+23,
+        "r2_val": -5575.154513207805,
+        "mse_val": 247853264497.0966,
+        "r2_test": -7.110013131883179e+19,
+        "mse_test": 6.661188800922792e+26
+    },
+    "model2": {
+        "models": "Ridge",
+        "penalty": "l2",
+        "eta0": 0.001,
+        "fit_intercept": true,
+        "max_iter": 100000,
+        "alpha": 0.1,
+        "tol": 0.0005,
+        "batch_size": 32,
+        "early_stopping": true,
+        "validation_fraction": 0.05,
+        "outliers": [
+            300,
+            3600
+        ],
+        "degree_poly": 2,
+        "techniques": [
+            [
+                0.1
+            ],
+            "grid-size=1e4"
+        ],
+        "random_state": 42,
+        "r2_train": 0.010933118790359408,
+        "mse_train": 27186747.2487033,
+        "r2_val": 0.005855331393718632,
+        "mse_val": 44188517.53709796,
+        "r2_test": 0.027424521717250294,
+        "mse_test": 9111810.011908181
+    },
+    "model3": {
+        "models": "Ridge",
+        "penalty": "l2",
+        "eta0": 0.001,
+        "fit_intercept": true,
+        "max_iter": 100000,
+        "alpha": 0.1,
+        "tol": 0.0005,
+        "batch_size": 32,
+        "early_stopping": true,
+        "validation_fraction": 0.05,
+        "outliers": [
+            300,
+            3600
+        ],
+        "degree_poly": 2,
+        "techniques": [
+            [
+                0.1
+            ],
+            "grid-size=1e4"
+        ],
+        "random_state": 42,
+        "r2_train": 0.37001071937599894,
+        "mse_train": 0.3985431193054185,
+        "r2_val": 0.3671126280828422,
+        "mse_val": 0.40401991740578347,
+        "r2_test": 0.347299294398108,
+        "mse_test": 0.41333410587915875,
+        "r2_train_kaggle": 0.36750698305239515,
+        "mse_train_kaggle": 0.40051530040934186,
+        "Score_kaggle": 0.63876
+    },
+    "model4": {
+        "models": "Ridge",
+        "penalty": "l2",
+        "eta0": 0.001,
+        "fit_intercept": true,
+        "max_iter": 100000,
+        "alpha": 0.1,
+        "tol": 0.0005,
+        "batch_size": 32,
+        "early_stopping": true,
+        "validation_fraction": 0.05,
+        "outliers": [
+            150,
+            3600
+        ],
+        "degree_poly": 2,
+        "techniques": [
+            [
+                0.1,
+                0.5,
+                1
+            ],
+            "grid-size=1e4"
+        ],
+        "random_state": 42,
+        "r2_train": 0.4318509462813688,
+        "mse_train": 0.3594218236144677,
+        "r2_val": 0.4288405255174761,
+        "mse_val": 0.3646143278336188,
+        "r2_test": 0.404419496424929,
+        "mse_test": 0.3771617416856481,
+        "r2_train_kaggle": 0.4288871591733693,
+        "mse_train_kaggle": 0.3616473619190316
+    },
+    "model5": {
+        "models": "Ridge",
+        "penalty": "l2",
+        "eta0": 0.001,
+        "fit_intercept": true,
+        "max_iter": 100000,
+        "alpha": 0.1,
+        "tol": 0.0005,
+        "batch_size": 32,
+        "early_stopping": true,
+        "validation_fraction": 0.05,
+        "outliers": [
+            100,
+            3600
+        ],
+        "degree_poly": 2,
+        "techniques": [
+            [
+                0.1
+            ],
+            "grid-size=1e4"
+        ],
+        "random_state": 42,
+        "r2_train": 0.43721160122781433,
+        "mse_train": 0.35603057203355143,
+        "r2_val": 0.4341239918288534,
+        "mse_val": 0.3612414913425498,
+        "r2_test": 0.4087416206416117,
+        "mse_test": 0.37442468114125393,
+        "r2_train_kaggle": 0.43414532917991044,
+        "mse_train_kaggle": 0.3583177163998817
+    },
+    "model6": {
+        "models": "Ridge",
+        "penalty": "l2",
+        "eta0": 0.001,
+        "fit_intercept": true,
+        "max_iter": 100000,
+        "alpha": 0.08,
+        "tol": 0.0005,
+        "batch_size": 32,
+        "early_stopping": true,
+        "validation_fraction": 0.05,
+        "outliers": [
+            100,
+            1500
+        ],
+        "degree_poly": 2,
+        "techniques": [
+            [
+                0.1,
+                0.08,
+                0.12
+            ],
+            "grid-size=1e4"
+        ],
+        "random_state": 42,
+        "r2_train": 0.36732071939991495,
+        "mse_train": 0.4002448641038984,
+        "r2_val": 0.3676489281719193,
+        "mse_val": 0.403677556462418,
+        "r2_test": 0.3099554975760974,
+        "mse_test": 0.43698271654723636,
+        "r2_train_kaggle": 0.36170002037629523,
+        "mse_train_kaggle": 0.40419245942669846
+    },
+    "model7": {
+        "models": "Ridge",
+        "penalty": "l2",
+        "eta0": 0.001,
+        "fit_intercept": true,
+        "max_iter": 100000,
+        "alpha": 0.1,
+        "tol": 0.0005,
+        "batch_size": 32,
+        "early_stopping": true,
+        "validation_fraction": 0.05,
+        "outliers": [
+            100,
+            1200
+        ],
+        "degree_poly": 2,
+        "techniques": [
+            [
+                0.1,
+                0.08,
+                0.12
+            ],
+            "grid-size=1e4"
+        ],
+        "random_state": 42,
+        "r2_train": 0.32548865364195345,
+        "mse_train": 0.42670861910248187,
+        "r2_val": 0.3283631863523263,
+        "mse_val": 0.4287566192932916,
+        "r2_test": 0.2490833815991642,
+        "mse_test": 0.47553104568853277,
+        "r2_train_kaggle": 0.31826337045084074,
+        "mse_train_kaggle": 0.431697969254501
+    },
+    "model8": {
+        "models": "Ridge",
+        "penalty": "l2",
+        "eta0": 0.001,
+        "fit_intercept": true,
+        "max_iter": 100000,
+        "alpha": 0.1,
+        "tol": 0.0005,
+        "batch_size": 32,
+        "early_stopping": true,
+        "validation_fraction": 0.05,
+        "outliers": [
+            100,
+            1200
+        ],
+        "degree_poly": 2,
+        "techniques": [
+            [
+                0.1,
+                0.08,
+                0.12
+            ],
+            "grid-size=1e4"
+        ],
+        "random_state": 42,
+        "r2_train": 0.32548865364195345,
+        "mse_train": 0.42670861910248187,
+        "r2_val": 0.3283631863523263,
+        "mse_val": 0.4287566192932916,
+        "r2_test": 0.2490833815991642,
+        "mse_test": 0.47553104568853277,
+        "r2_train_kaggle": 0.31826337045084074,
+        "mse_train_kaggle": 0.431697969254501
+    },
+    "model9": {
+        "models": "Ridge",
+        "penalty": "l2",
+        "eta0": 0.001,
+        "fit_intercept": true,
+        "max_iter": 100000,
+        "alpha": 0.1,
+        "tol": 0.0005,
+        "batch_size": 32,
+        "early_stopping": true,
+        "validation_fraction": 0.05,
+        "outliers": [
+            100,
+            2000
+        ],
+        "degree_poly": 2,
+        "techniques": [
+            [
+                0.1
+            ],
+            "grid-size=1e4"
+        ],
+        "random_state": 42,
+        "r2_train": 0.4155678146989399,
+        "mse_train": 0.3697228402388996,
+        "r2_val": 0.4148876977385043,
+        "mse_val": 0.3735214739973365,
+        "r2_test": 0.3657219436583451,
+        "mse_test": 0.40166764191711435,
+        "r2_train_kaggle": 0.4106077371105262,
+        "mse_train_kaggle": 0.3732224908495304
+    },
+    "model10": {
+        "models": "Ridge",
+        "penalty": "l2",
+        "eta0": 0.001,
+        "fit_intercept": true,
+        "max_iter": 100000,
+        "alpha": 0.1,
+        "tol": 0.0005,
+        "batch_size": 32,
+        "early_stopping": true,
+        "validation_fraction": 0.05,
+        "outliers": [
+            100,
+            2500
+        ],
+        "degree_poly": 2,
+        "techniques": [
+            [
+                0.1
+            ],
+            "grid-size=1e4"
+        ],
+        "random_state": 42,
+        "r2_train": 0.4312965663295917,
+        "mse_train": 0.35977253484409805,
+        "r2_val": 0.42958985295863616,
+        "mse_val": 0.36413597540580794,
+        "r2_test": 0.3888490079303475,
+        "mse_test": 0.3870220250969779,
+        "r2_train_kaggle": 0.4269684691531095,
+        "mse_train_kaggle": 0.3628623393010197
+    },
+    "model11": {
+        "models": "Ridge",
+        "penalty": "l2",
+        "eta0": 0.001,
+        "fit_intercept": true,
+        "max_iter": 100000,
+        "alpha": 0.1,
+        "tol": 0.0005,
+        "batch_size": 32,
+        "early_stopping": true,
+        "validation_fraction": 0.05,
+        "outliers": [
+            100,
+            3000
+        ],
+        "degree_poly": 2,
+        "techniques": [
+            [
+                0.1
+            ],
+            "grid-size=1e4"
+        ],
+        "random_state": 42,
+        "r2_train": 0.43594283625696684,
+        "mse_train": 0.35683321672084856,
+        "r2_val": 0.43322107784607045,
+        "mse_val": 0.3618178896859761,
+        "r2_test": 0.40173522749529855,
+        "mse_test": 0.3788616018029202,
+        "r2_train_kaggle": 0.4323321003717079,
+        "mse_train_kaggle": 0.35946591228721786
+    },
+    "model12": {
+        "models": "Ridge",
+        "penalty": "l2",
+        "eta0": 0.001,
+        "fit_intercept": true,
+        "max_iter": 100000,
+        "alpha": 0.1,
+        "tol": 0.0005,
+        "batch_size": 32,
+        "early_stopping": true,
+        "validation_fraction": 0.05,
+        "outliers": [
+            50,
+            3500
+        ],
+        "degree_poly": 2,
+        "techniques": [
+            [
+                0.1
+            ],
+            "grid-size=1e4"
+        ],
+        "random_state": 42,
+        "r2_train": 0.4390302499214158,
+        "mse_train": 0.35488006051603677,
+        "r2_val": 0.4359446161172209,
+        "mse_val": 0.36007924904281013,
+        "r2_test": 0.40849967173135504,
+        "mse_test": 0.3745778995086175,
+        "r2_train_kaggle": 0.4357586160529575,
+        "mse_train_kaggle": 0.3572961302964916
+    },
+    "model13": {
+        "models": "Ridge",
+        "penalty": "l2",
+        "eta0": 0.001,
+        "fit_intercept": true,
+        "max_iter": 100000,
+        "alpha": 0.1,
+        "tol": 0.0005,
+        "batch_size": 32,
+        "early_stopping": true,
+        "validation_fraction": 0.05,
+        "outliers": [
+            50,
+            4500
+        ],
+        "degree_poly": 2,
+        "techniques": [
+            [
+                0.1
+            ],
+            "grid-size=1e4"
+        ],
+        "random_state": 42,
+        "r2_train": 0.4390598536444199,
+        "mse_train": 0.3548613326416554,
+        "r2_val": 0.43564000389149904,
+        "mse_val": 0.36027370608483344,
+        "r2_test": 0.4126923292673439,
+        "mse_test": 0.3719228259978613,
+        "r2_train_kaggle": 0.43616950966740453,
+        "mse_train_kaggle": 0.3570359389979051
+    },
+    "model14": {
+        "models": "Ridge",
+        "penalty": "l2",
+        "eta0": 0.001,
+        "fit_intercept": true,
+        "max_iter": 100000,
+        "alpha": 0.1,
+        "tol": 0.0005,
+        "batch_size": 32,
+        "early_stopping": true,
+        "validation_fraction": 0.05,
+        "outliers": [
+            80,
+            4500
+        ],
+        "degree_poly": 2,
+        "techniques": [
+            [
+                0.1
+            ],
+            "grid-size=1e4"
+        ],
+        "random_state": 42,
+        "r2_train": 0.43739256211067534,
+        "mse_train": 0.35591609276073544,
+        "r2_val": 0.4338597664423556,
+        "mse_val": 0.3614101664079189,
+        "r2_test": 0.41167077688092213,
+        "mse_test": 0.3725697418639335,
+        "r2_train_kaggle": 0.4345556217587566,
+        "mse_train_kaggle": 0.358057905696729
+    },
+    "model15": {
+        "models": "Ridge",
+        "penalty": "l2",
+        "eta0": 0.001,
+        "fit_intercept": true,
+        "max_iter": 100000,
+        "alpha": 0.1,
+        "tol": 0.0005,
+        "batch_size": 32,
+        "early_stopping": true,
+        "validation_fraction": 0.05,
+        "outliers": [
+            60,
+            4000
+        ],
+        "degree_poly": 2,
+        "techniques": [
+            [
+                0.1
+            ],
+            "grid-size=1e4"
+        ],
+        "random_state": 42,
+        "r2_train": 0.4391847678244758,
+        "mse_train": 0.354782309571746,
+        "r2_val": 0.4356611605737839,
+        "mse_val": 0.3602602001730258,
+        "r2_test": 0.4130475763511098,
+        "mse_test": 0.3716978595860368,
+        "r2_train_kaggle": 0.4363133439764083,
+        "mse_train_kaggle": 0.35694485840106654
+    },
+    "model16": {
+        "models": "Ridge",
+        "penalty": "l2",
+        "eta0": 0.001,
+        "fit_intercept": true,
+        "max_iter": 100000,
+        "alpha": 0.1,
+        "tol": 0.0005,
+        "batch_size": 32,
+        "early_stopping": true,
+        "validation_fraction": 0.05,
+        "outliers": [
+            80,
+            4000
+        ],
+        "degree_poly": 2,
+        "techniques": [
+            [
+                0.1
+            ],
+            "grid-size=1e4"
+        ],
+        "random_state": 42,
+        "r2_train": 0.43812176812996784,
+        "mse_train": 0.3554547832583622,
+        "r2_val": 0.4348273119738819,
+        "mse_val": 0.3607925088544912,
+        "r2_test": 0.4111026237597599,
+        "mse_test": 0.3729295347373324,
+        "r2_train_kaggle": 0.43518234061071237,
+        "mse_train_kaggle": 0.35766104678676885
+    },
+    "model17": {
+        "models": "Ridge",
+        "penalty": "l2",
+        "eta0": 0.001,
+        "fit_intercept": true,
+        "max_iter": 100000,
+        "alpha": 0.1,
+        "tol": 0.0005,
+        "batch_size": 32,
+        "early_stopping": true,
+        "validation_fraction": 0.05,
+        "outliers": [
+            0,
+            4000
+        ],
+        "degree_poly": 2,
+        "techniques": [
+            [
+                0.1
+            ],
+            "grid-size=1e4"
+        ],
+        "random_state": 42,
+        "r2_train": 0.4411199244878342,
+        "mse_train": 0.35355809291174883,
+        "r2_val": 0.4374792348718022,
+        "mse_val": 0.3590995857251536,
+        "r2_test": 0.41071956416732025,
+        "mse_test": 0.3731721139053654,
+        "r2_train_kaggle": 0.4378108402041224,
+        "mse_train_kaggle": 0.3559965947278971
+    },
+    "model18": {
+        "models": "Ridge",
+        "penalty": "l2",
+        "eta0": 0.001,
+        "fit_intercept": true,
+        "max_iter": 100000,
+        "alpha": 0.1,
+        "tol": 0.0005,
+        "batch_size": 32,
+        "early_stopping": true,
+        "validation_fraction": 0.05,
+        "outliers": [
+            0,
+            5000
+        ],
+        "degree_poly": 2,
+        "techniques": [
+            [
+                0.1
+            ],
+            "grid-size=1e4"
+        ],
+        "random_state": 42,
+        "r2_train": 0.4407490762959406,
+        "mse_train": 0.35379269848319544,
+        "r2_val": 0.4368290448184158,
+        "mse_val": 0.35951465125390875,
+        "r2_test": 0.4123019498622321,
+        "mse_test": 0.37217004056493724,
+        "r2_train_kaggle": 0.4376024598593026,
+        "mse_train_kaggle": 0.35612854798930643
+    },
+    "model19": {
+        "models": "Ridge",
+        "penalty": "l2",
+        "eta0": 0.001,
+        "fit_intercept": true,
+        "max_iter": 100000,
+        "alpha": 0.1,
+        "tol": 0.0005,
+        "batch_size": 32,
+        "early_stopping": true,
+        "validation_fraction": 0.05,
+        "outliers": [
+            0,
+            4500
+        ],
+        "degree_poly": 2,
+        "techniques": [
+            [
+                0.1
+            ],
+            "grid-size=1e4"
+        ],
+        "random_state": 42,
+        "r2_train": 0.44075619521198417,
+        "mse_train": 0.35378819492243135,
+        "r2_val": 0.4369479277373426,
+        "mse_val": 0.3594387592876332,
+        "r2_test": 0.41103102814354364,
+        "mse_test": 0.37297487391003387,
+        "r2_train_kaggle": 0.43749075844893215,
+        "mse_train_kaggle": 0.356199280981975
+    },
+    "model20": {
+        "models": "Ridge",
+        "penalty": "l2",
+        "eta0": 0.001,
+        "fit_intercept": true,
+        "max_iter": 100000,
+        "alpha": 0.1,
+        "tol": 0.0005,
+        "batch_size": 32,
+        "early_stopping": true,
+        "validation_fraction": 0.05,
+        "outliers": [
+            30,
+            4500
+        ],
+        "degree_poly": 2,
+        "techniques": [
+            [
+                0.1
+            ],
+            "grid-size=1e4"
+        ],
+        "random_state": 42,
+        "r2_train": 0.43963234418105557,
+        "mse_train": 0.35449916431393785,
+        "r2_val": 0.43614142481208584,
+        "mse_val": 0.3599536111549768,
+        "r2_test": 0.4127599624790915,
+        "mse_test": 0.3718799960868998,
+        "r2_train_kaggle": 0.4366851574657047,
+        "mse_train_kaggle": 0.35670941391808947
+    },
+    "model21": {
+        "models": "Ridge",
+        "penalty": "l2",
+        "eta0": 0.001,
+        "fit_intercept": true,
+        "max_iter": 100000,
+        "alpha": 0.1,
+        "tol": 0.0005,
+        "batch_size": 32,
+        "early_stopping": true,
+        "validation_fraction": 0.05,
+        "outliers": [
+            60,
+            4500
+        ],
+        "degree_poly": 2,
+        "techniques": [
+            [
+                0.1
+            ],
+            "grid-size=1e4"
+        ],
+        "random_state": 42,
+        "r2_train": 0.4381738330772611,
+        "mse_train": 0.3554218459892072,
+        "r2_val": 0.43466722427669,
+        "mse_val": 0.36089470494982684,
+        "r2_test": 0.4117030878368684,
+        "mse_test": 0.3725492803875301,
+        "r2_train_kaggle": 0.4352610819312812,
+        "mse_train_kaggle": 0.35761118520281887
+    },
+    "model22": {
+        "models": "Ridge",
+        "penalty": "l2",
+        "eta0": 0.001,
+        "fit_intercept": true,
+        "max_iter": 100000,
+        "alpha": 0.1,
+        "tol": 0.0005,
+        "batch_size": 32,
+        "early_stopping": true,
+        "validation_fraction": 0.05,
+        "outliers": [
+            90,
+            4500
+        ],
+        "degree_poly": 2,
+        "techniques": [
+            [
+                0.1
+            ],
+            "grid-size=1e4"
+        ],
+        "random_state": 42,
+        "r2_train": 0.43689683352268394,
+        "mse_train": 0.35622970002972143,
+        "r2_val": 0.4334068064158241,
+        "mse_val": 0.3616993250807377,
+        "r2_test": 0.41133480358132146,
+        "mse_test": 0.37278250281577224,
+        "r2_train_kaggle": 0.43407859303000695,
+        "mse_train_kaggle": 0.3583599759164463
+    },
+    "model23": {
+        "models": "Ridge",
+        "penalty": "l2",
+        "eta0": 0.001,
+        "fit_intercept": true,
+        "max_iter": 100000,
+        "alpha": 0.1,
+        "tol": 0.0005,
+        "batch_size": 32,
+        "early_stopping": true,
+        "validation_fraction": 0.05,
+        "outliers": [
+            120,
+            4500
+        ],
+        "degree_poly": 2,
+        "techniques": [
+            [
+                0.1
+            ],
+            "grid-size=1e4"
+        ],
+        "random_state": 42,
+        "r2_train": 0.43454415561364,
+        "mse_train": 0.35771804851663946,
+        "r2_val": 0.431120858245405,
+        "mse_val": 0.36315861883818606,
+        "r2_test": 0.4093506725494668,
+        "mse_test": 0.374038988397847,
+        "r2_train_kaggle": 0.43176488415859116,
+        "mse_train_kaggle": 0.3598250921768076
+    },
+    "model24": {
+        "models": "Ridge",
+        "penalty": "l2",
+        "eta0": 0.001,
+        "fit_intercept": true,
+        "max_iter": 100000,
+        "alpha": 0.1,
+        "tol": 0.0005,
+        "batch_size": 32,
+        "early_stopping": true,
+        "validation_fraction": 0.05,
+        "outliers": [
+            120,
+            4000
+        ],
+        "degree_poly": 2,
+        "techniques": [
+            [
+                0.1
+            ],
+            "grid-size=1e4"
+        ],
+        "random_state": 42,
+        "r2_train": 0.435425710359711,
+        "mse_train": 0.35716036033186654,
+        "r2_val": 0.4322346602456719,
+        "mse_val": 0.3624475947095309,
+        "r2_test": 0.40901724112039695,
+        "mse_test": 0.37425013966583814,
+        "r2_train_kaggle": 0.4325511832601503,
+        "mse_train_kaggle": 0.3593271818245441
+    },
+    "model25": {
+        "models": "Ridge",
+        "penalty": "l2",
+        "eta0": 0.001,
+        "fit_intercept": true,
+        "max_iter": 100000,
+        "alpha": 0.1,
+        "tol": 0.0005,
+        "batch_size": 32,
+        "early_stopping": true,
+        "validation_fraction": 0.05,
+        "outliers": [
+            120,
+            10000
+        ],
+        "degree_poly": 2,
+        "techniques": [
+            [
+                0.1
+            ],
+            "grid-size=1e4"
+        ],
+        "random_state": 42,
+        "r2_train": 0.43459831749554156,
+        "mse_train": 0.35768378468704054,
+        "r2_val": 0.43119767626019234,
+        "mse_val": 0.36310958008442545,
+        "r2_test": 0.4113656251739308,
+        "mse_test": 0.37276298450467865,
+        "r2_train_kaggle": 0.43202069512692365,
+        "mse_train_kaggle": 0.3596631042906422
+    },
+    "model26": {
+        "models": "Ridge",
+        "penalty": "l2",
+        "eta0": 0.001,
+        "fit_intercept": true,
+        "max_iter": 100000,
+        "alpha": 0.1,
+        "tol": 0.0005,
+        "batch_size": 32,
+        "early_stopping": true,
+        "validation_fraction": 0.05,
+        "outliers": [
+            200,
+            10000
+        ],
+        "degree_poly": 2,
+        "techniques": [
+            [
+                0.1
+            ],
+            "grid-size=1e4"
+        ],
+        "random_state": 42,
+        "r2_train": 0.4166041244214468,
+        "mse_train": 0.36906725113273997,
+        "r2_val": 0.4133087138736419,
+        "mse_val": 0.3745294589232077,
+        "r2_test": 0.3940456227150978,
+        "mse_test": 0.38373117814795793,
+        "r2_train_kaggle": 0.4140872366704731,
+        "mse_train_kaggle": 0.37101915773092664
+    },
+    "model27": {
+        "models": "Ridge",
+        "penalty": "l2",
+        "eta0": 0.001,
+        "fit_intercept": true,
+        "max_iter": 100000,
+        "alpha": 0.1,
+        "tol": 0.0005,
+        "batch_size": 32,
+        "early_stopping": true,
+        "validation_fraction": 0.05,
+        "outliers": [
+            0,
+            10000
+        ],
+        "degree_poly": 2,
+        "techniques": [
+            [
+                0.1
+            ],
+            "grid-size=1e4"
+        ],
+        "random_state": 42,
+        "r2_train": 0.440710512678257,
+        "mse_train": 0.3538170945562018,
+        "r2_val": 0.4368085946888953,
+        "mse_val": 0.3595277061196027,
+        "r2_test": 0.4131714513616638,
+        "mse_test": 0.37161941357504186,
+        "r2_train_kaggle": 0.43765765549250657,
+        "mse_train_kaggle": 0.3560935963060125
+    },
+    "model28": {
+        "models": "Ridge",
+        "penalty": "l2",
+        "eta0": 0.001,
+        "fit_intercept": true,
+        "max_iter": 100000,
+        "alpha": 0.1,
+        "tol": 0.0005,
+        "batch_size": 32,
+        "early_stopping": true,
+        "validation_fraction": 0.05,
+        "outliers": [
+            0,
+            20000
+        ],
+        "degree_poly": 2,
+        "techniques": [
+            [
+                0.1
+            ],
+            "grid-size=1e4"
+        ],
+        "random_state": 42,
+        "r2_train": 0.44070521325459744,
+        "mse_train": 0.353820447071714,
+        "r2_val": 0.4368026108131505,
+        "mse_val": 0.35953152608045424,
+        "r2_test": 0.41302800855973143,
+        "mse_test": 0.37171025123121815,
+        "r2_train_kaggle": 0.4376383505771748,
+        "mse_train_kaggle": 0.35610582081087866
+    },
+    "model29": {
+        "models": "Ridge",
+        "penalty": "l2",
+        "eta0": 0.001,
+        "fit_intercept": true,
+        "max_iter": 100000,
+        "alpha": 0.1,
+        "tol": 0.0005,
+        "batch_size": 32,
+        "early_stopping": true,
+        "validation_fraction": 0.05,
+        "outliers": [
+            0,
+            35000
+        ],
+        "degree_poly": 2,
+        "techniques": [
+            [
+                0.1
+            ],
+            "grid-size=1e4"
+        ],
+        "random_state": 42,
+        "r2_train": 0.4416105757295413,
+        "mse_train": 0.3532476976679324,
+        "r2_val": 0.4374923065432277,
+        "mse_val": 0.3590912410877915,
+        "r2_test": 0.41710992803933455,
+        "mse_test": 0.3691253045261022,
+        "r2_train_kaggle": 0.4388439994304143,
+        "mse_train_kaggle": 0.35534236445688794
+    },
+    "model30": {
+        "models": "Ridge",
+        "penalty": "l2",
+        "eta0": 0.001,
+        "fit_intercept": true,
+        "max_iter": 100000,
+        "alpha": 0.1,
+        "tol": 0.0005,
+        "batch_size": 32,
+        "early_stopping": true,
+        "validation_fraction": 0.05,
+        "outliers": [
+            0,
+            350000
+        ],
+        "degree_poly": 2,
+        "techniques": [
+            [
+                0.1
+            ],
+            "grid-size=1e4"
+        ],
+        "random_state": 42,
+        "r2_train": 0.4413368167787335,
+        "mse_train": 0.35342088275147016,
+        "r2_val": 0.4374926258074161,
+        "mse_val": 0.3590910372772926,
+        "r2_test": 0.4141235433112709,
+        "mse_test": 0.3710164847420743,
+        "r2_train_kaggle": 0.43832137681651906,
+        "mse_train_kaggle": 0.355673306218451
+    },
+    "model31": {
+        "models": "Ridge",
+        "penalty": "l2",
+        "eta0": 0.001,
+        "fit_intercept": true,
+        "max_iter": 100000,
+        "alpha": 0.12,
+        "tol": 0.0005,
+        "batch_size": 32,
+        "early_stopping": true,
+        "validation_fraction": 0.05,
+        "outliers": [
+            0,
+            350000
+        ],
+        "degree_poly": 2,
+        "techniques": [
+            [
+                0.08,
+                0.1,
+                0.12
+            ],
+            "grid-size=1e4"
+        ],
+        "random_state": 42,
+        "r2_train": 0.4402632045289129,
+        "mse_train": 0.35410007014104633,
+        "r2_val": 0.43659941528538815,
+        "mse_val": 0.3596612411671925,
+        "r2_test": 0.4099973753206875,
+        "mse_test": 0.3736294525885274,
+        "r2_train_kaggle": 0.43695904654270734,
+        "mse_train_kaggle": 0.3565359783812294
+    },
+    "model32": {
+        "models": "Ridge",
+        "penalty": "l2",
+        "eta0": 0.001,
+        "fit_intercept": true,
+        "max_iter": 100000,
+        "alpha": 0.1,
+        "tol": 0.0005,
+        "batch_size": 32,
+        "early_stopping": true,
+        "validation_fraction": 0.05,
+        "outliers": [
+            0,
+            350000
+        ],
+        "degree_poly": 2,
+        "techniques": [
+            [
+                0.1
+            ],
+            "grid-size=1e4"
+        ],
+        "random_state": 42,
+        "r2_train": 0.4413368167787335,
+        "mse_train": 0.35342088275147016,
+        "r2_val": 0.4374926258074161,
+        "mse_val": 0.3590910372772926,
+        "r2_test": 0.4141235433112709,
+        "mse_test": 0.3710164847420743,
+        "r2_train_kaggle": 0.43832137681651906,
+        "mse_train_kaggle": 0.355673306218451
+    },
+    "model33": {
+        "models": "Ridge",
+        "penalty": "l2",
+        "eta0": 0.001,
+        "fit_intercept": true,
+        "max_iter": 100000,
+        "alpha": 0.1,
+        "tol": 0.0005,
+        "batch_size": 32,
+        "early_stopping": true,
+        "validation_fraction": 0.05,
+        "outliers": [
+            200,
+            350000
+        ],
+        "degree_poly": 2,
+        "techniques": [
+            [
+                0.1
+            ],
+            "grid-size=1e4"
+        ],
+        "random_state": 42,
+        "r2_train": 0.41446219080616065,
+        "mse_train": 0.37042227879850553,
+        "r2_val": 0.4111923401074977,
+        "mse_val": 0.3758805005020706,
+        "r2_test": 0.391308882268803,
+        "mse_test": 0.3854642667683379,
+        "r2_train_kaggle": 0.4118858896605997,
+        "mse_train_kaggle": 0.37241312277929917
+    },
+    "model34": {
+        "models": "Ridge",
+        "penalty": "l2",
+        "eta0": 0.001,
+        "fit_intercept": true,
+        "max_iter": 100000,
+        "alpha": 0.1,
+        "tol": 0.0005,
+        "batch_size": 32,
+        "early_stopping": true,
+        "validation_fraction": 0.05,
+        "outliers": [
+            0,
+            350000
+        ],
+        "degree_poly": 2,
+        "techniques": [
+            [
+                0.1
+            ],
+            "grid-size=1e4"
+        ],
+        "random_state": 42,
+        "r2_train": 0.4413368167787335,
+        "mse_train": 0.35342088275147016,
+        "r2_val": 0.4374926258074161,
+        "mse_val": 0.3590910372772926,
+        "r2_test": 0.4141235433112709,
+        "mse_test": 0.3710164847420743,
+        "r2_train_kaggle": 0.43832137681651906,
+        "mse_train_kaggle": 0.355673306218451
+    },
+    "model35": {
+        "models": "Ridge",
+        "penalty": "l2",
+        "eta0": 0.001,
+        "fit_intercept": true,
+        "max_iter": 100000,
+        "alpha": 0.3,
+        "tol": 0.0005,
+        "batch_size": 32,
+        "early_stopping": true,
+        "validation_fraction": 0.05,
+        "outliers": [
+            0,
+            350000
+        ],
+        "degree_poly": 2,
+        "techniques": [
+            [
+                0.12,
+                0.2,
+                0.3
+            ],
+            "grid-size=1e4"
+        ],
+        "random_state": 42,
+        "r2_train": 0.43542440011466244,
+        "mse_train": 0.3571611892176345,
+        "r2_val": 0.4332781591256657,
+        "mse_val": 0.36178145038430765,
+        "r2_test": 0.39162416528182376,
+        "mse_test": 0.38526460830134474,
+        "r2_train_kaggle": 0.4309223660390371,
+        "mse_train_kaggle": 0.36035860225314326
+    },
+    "model36": {
+        "models": "Ridge",
+        "penalty": "l2",
+        "eta0": 0.001,
+        "fit_intercept": true,
+        "max_iter": 100000,
+        "alpha": 0.1,
+        "tol": 0.0005,
+        "batch_size": 32,
+        "early_stopping": true,
+        "validation_fraction": 0.05,
+        "outliers": [
+            0,
+            350000
+        ],
+        "degree_poly": 2,
+        "techniques": [
+            [
+                0.09,
+                0.1
+            ],
+            "grid-size=1e4"
+        ],
+        "random_state": 42,
+        "r2_train": 0.4413368167787335,
+        "mse_train": 0.35342088275147016,
+        "r2_val": 0.4374926258074161,
+        "mse_val": 0.3590910372772926,
+        "r2_test": 0.4141235433112709,
+        "mse_test": 0.3710164847420743,
+        "r2_train_kaggle": 0.43832137681651906,
+        "mse_train_kaggle": 0.355673306218451,
+        "Score_kaggle": 0.59897
+    }
+}
