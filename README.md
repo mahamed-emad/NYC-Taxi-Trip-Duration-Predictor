@@ -85,7 +85,7 @@ The competition metric is RMSLE (lower is better). The private score being sligh
 
 ### 📈 Actual vs. Predicted
 
-![Actual vs Predicted trip duration](eda/evaluati on_plot.png)
+![Actual vs Predicted trip duration](eda/evaluation_plot.png)
 
 The plot compares actual and predicted trip durations (in seconds) for a random sample of 40,000 trips. The red dashed line marks perfect prediction; the closer the points are to it, the better the model.
 
