@@ -18,8 +18,8 @@ plt.ylabel('Predicted Duration (Seconds)', fontsize=12)
 plt.legend(frameon=True, facecolor='white', edgecolor='none')
 plt.grid(True, linestyle=':', alpha=0.6)
 
-plt.xlim(0, 2000)
-plt.ylim(0, 2000)
+plt.xlim(0, 1000)
+plt.ylim(0, 1000)
 
 plt.tight_layout()
 plt.savefig('eda/evaluation_plot.png', dpi=300)
