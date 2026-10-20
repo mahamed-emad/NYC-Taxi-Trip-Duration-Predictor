@@ -147,7 +147,7 @@ Download the dataset from the [Kaggle competition page](https://www.kaggle.com/c
 **Mahamed Emad**
 
 - GitHub: [Mahamed-Emad](https://github.com/Mahamed-Emad)
-- LinkedIn: [mahamed-emad](https://www.linkedin.com/in/mahamed-emad/)
+- LinkedIn: [Mahamed-Emad](https://www.linkedin.com/in/mahamed-emad/)
 
 ---
 
