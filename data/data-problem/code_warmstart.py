@@ -54,16 +54,12 @@ if __name__ == '__main__':
     from pathlib import Path
     import pandas as pd
 
-    # هات مسار الفولدر اللي قاعد فيه الكود حالياً واطلع لبرة لحد ما توصل للمجلد الأساسي للمشروع
     current_file_dir = Path(__file__).resolve().parent
-    # لو الملف جوه data-problem، هنطلع خطوتين لفوق عشان نوصل لـ taxi-trip-duration
     root_dir = current_file_dir.parent.parent 
 
-    # قراءة الملفات بالمسار الصحيح والمضمون
     train = pd.read_csv(root_dir / "data" / "data-problem" / "split_sample" / "train.csv")
     test = pd.read_csv(root_dir / "data" / "data-problem" / "split_sample" / "val.csv")
 
-    print("تم تحميل الملفات بنجاح!")
     prepare_data(train)
     prepare_data(test)
 
