@@ -143,11 +143,8 @@ Download the dataset from the [Kaggle competition page](https://www.kaggle.com/c
 ---
 
 ## 🔗 Author
-
-**Mahamed Emad**
-
-- GitHub: [Mahamed-Emad](https://github.com/Mahamed-Emad)
-- LinkedIn: [Mahamed-Emad](https://www.linkedin.com/in/mahamed-emad/)
+ 
+**Mahamed Emad** — Machine Learning Engineer & Data Scientist · [Linkedin](https://www.linkedin.com/in/mahamed-emad/)
 
 ---
 
